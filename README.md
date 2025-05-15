@@ -17,7 +17,8 @@ This project uses Illinois precinct-level voter data to generate districting fig
 
 ## Data
 
-The scripts expect an Illinois 2022 General Election precinct-level shapefile. Set the `SHAPEFILE_PATH` variable at the top of each script to point to the local `.shp` file.
+Most scripts expect an Illinois 2022 General Election precinct-level shapefile, whil eothers use this in tandem with a 2020 Census dataset. Set the `SHAPEFILE_PATH` variable at the top of each script to point to the indicated `.shp` file.
+Due to large data sizes and the use of multiple datasets, I have uploaded 4 folders to a google drive. Please put these folders in the same level of the directory as the .py files, and you can run any of the scripts that have been written.
 
 ## Usage
 
